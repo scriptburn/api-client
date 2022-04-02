@@ -1,6 +1,6 @@
 <?php
 
-namespace Scriptburn;
+namespace Scriptburn\ApiClient;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ConnectException;
 use GuzzleHttp\Exception\RequestException;

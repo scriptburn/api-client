@@ -8,7 +8,7 @@ use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Handler\CurlHandler;
 use GuzzleHttp\Middleware;
 
-class ExternalApiService
+class ApiClient
 {
 	private $baseUrl, $headers, $options = ['channel'];
 
